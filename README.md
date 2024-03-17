@@ -19,6 +19,8 @@ Nb : la création d'un modèle sur la pge "s'enregistrer"
 nécessite 30 minutes d'enregistrement vocal. Il faut
 continuer à parler tant que la jauge n'est pas entièrement remplie.
 
+Pour plus d'information sur le projet vous pouvez lire le rapport.
+
 **Membres**
     -Romain Houard	
     -Melissa Bouloufa
