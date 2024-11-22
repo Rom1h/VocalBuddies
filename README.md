@@ -1,29 +1,75 @@
-# Jeu VocalBuddies
 
-**Exécution, compilation**
+# **Jeu VocalBuddies**
 
-Après avoir téléchargé et décompressé notre dépôt moodle,
-dans une console, placez vous dans le répertoire du projet et tapez les commandes suivantes :
+## **Présentation**
+**VocalBuddies** est un jeu innovant où les joueurs utilisent leur voix pour contrôler un personnage dans un labyrinthe. Ce projet combine reconnaissance vocale et reconnaissance du locuteur pour offrir une expérience interactive unique. L’objectif principal est de sortir d’un labyrinthe en donnant des commandes vocales précises.
 
-Si vous n'avez pas installé whisper ai sur votre machine, 
-exécutez la commande :
-$ ./instal.sh
+Le jeu a été développé en utilisant Java et diverses bibliothèques, avec des outils avancés tels que **Whisper AI** et **ALIZE** pour la reconnaissance vocale.
 
-Après ça, exécutez la commande qui va lancer le jeu :
-$ ./program.sh
+---
 
-**Fonctionnement**
-Le fonctionnement du jeu est expliqué dans la section 
-instructions dans le menu du jeu.
-Nb : la création d'un modèle sur la pge "s'enregistrer"
-nécessite 30 minutes d'enregistrement vocal. Il faut
-continuer à parler tant que la jauge n'est pas entièrement remplie.
+## **Fonctionnalités Principales**
+- **Contrôle vocal :** Déplacez votre personnage dans le labyrinthe en donnant des commandes vocales telles que "go down" ou "go left".
+- **Reconnaissance du locuteur :** Identification des joueurs à partir de leurs caractéristiques vocales.
+- **Enregistrement vocal :** Création d’un modèle vocal personnalisé pour chaque joueur.
+- **Interface graphique intuitive :** Basée sur les bibliothèques Swing et AWT.
+- **Menu interactif :** Choisissez entre jouer, configurer un modèle vocal ou consulter les instructions.
 
-Pour plus d'information sur le projet vous pouvez lire le rapport.
+---
 
-**Membres**
-    -Romain Houard	
-    -Melissa Bouloufa
-	-Malone Sayarath
-	-Jules Cotrez
+## **Compilation et Exécution**
+Après avoir téléchargé et décompressé le dépôt, procédez comme suit :
 
+### Étape 1 : Installation de Whisper AI
+Si Whisper AI n’est pas encore installé sur votre machine, exécutez la commande suivante :
+```bash
+./instal.sh
+```
+
+### Étape 2 : Lancement du jeu
+Pour démarrer le jeu, exécutez :
+```bash
+./program.sh
+```
+
+---
+
+## **Instructions de Jeu**
+- Accédez à la section **Instructions** depuis le menu principal pour une explication détaillée du jeu.
+- **Création de modèle vocal :** Sur la page "S'enregistrer", il est nécessaire d’enregistrer 30 minutes de données vocales pour créer un modèle précis.
+  - Parlez jusqu’à ce que la jauge de progression soit remplie.
+- **Commandes vocales :**
+  - Donnez des commandes claires comme "va en haut" ou "va en bas" pour déplacer votre personnage.
+
+---
+
+## **Technologies Utilisées**
+- **Langage :** Java
+- **Reconnaissance vocale :** Whisper AI
+- **Reconnaissance du locuteur :** ALIZE, avec modèles GMM
+- **Interface graphique :** Java Swing et AWT
+- **Enregistrement vocal :** Alsa et Java Sound API
+
+---
+
+## **Problèmes Rencontrés et Résolutions**
+- **Reconnaissance vocale parfois imprécise :** Utilisation de phrases plus complètes comme "va en haut" pour améliorer la précision.
+- **Temps d’exécution élevé de Whisper AI :** Optimisation du modèle pour réduire le temps de latence.
+- **Difficulté avec ALIZE :** Manque de documentation externe résolu par une collaboration étroite en équipe et une exploration approfondie des outils.
+
+---
+
+## **Améliorations Futures**
+- Accélération du temps de réponse pour les commandes vocales.
+- Amélioration de la reconnaissance des locuteurs avec des enregistrements de meilleure qualité.
+- Création d’un mode multijoueur étendu.
+- Développement d’une version plus moderne de l’interface graphique avec JavaFX.
+
+---
+
+## **Crédits**
+**Membres de l’équipe :**
+- Romain Houard
+- Melissa Bouloufa
+- Malone Sayarath
+- Jules Cotrez
