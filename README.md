@@ -59,14 +59,6 @@ Pour démarrer le jeu, exécutez :
 
 ---
 
-## **Améliorations Futures**
-- Accélération du temps de réponse pour les commandes vocales.
-- Amélioration de la reconnaissance des locuteurs avec des enregistrements de meilleure qualité.
-- Création d’un mode multijoueur étendu.
-- Développement d’une version plus moderne de l’interface graphique avec JavaFX.
-
----
-
 ## **Crédits**
 **Membres de l’équipe :**
 - Romain Houard
